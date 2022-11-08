@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    padding: 12px;
+    height: 120px;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 16px;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    transition: .5s;
+}
+
+a:hover{
+    color: gold;
+}
+
+/* container */
+
+.container{
+    max-width: 95%;
+    margin: 0 auto;
+    margin-top: 16px;
+
+    display: flex;
+}
+
+.card{
+    width: 350px;
+    height: 350px;
+    box-shadow: 1px 1px 8px #333;
+    padding: 8px;
+    margin: 0 16px;
+}
+
+.card img {
+    width: 95%;
+    height: 70%;
+    
+}
+
+.card p{
+    margin: 5px 0;
+}
+
+/* FORMULARIO */
+.form{
+    margin: 16px auto;
+    box-shadow: 1px 1px 8px #333;
+    width: 50%;
+    height: 300px;
+    padding: 8px;
+}
+
+.form h3{
+    margin: 8px 0;
+    text-align: center;
+}
+
+.input-value{
+    display: grid;
+    margin: 16px 0;
+}
+
+.input-value input {
+    padding: 8px;
+    outline: none;
+}
+
+.submit{
+    width: 20%;
+    height: 30px;
+    background-color: #fff;
+    color: #000;
+    text-transform: uppercase;
+    border: 1px solid #000;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.submit:hover{
+    color: #fff;
+    background-color: #000;
+}
