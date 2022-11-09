@@ -17,7 +17,7 @@
         <nav>
             <h1><a href="index.php">LgE</a></h1>
             <ul>
-                <li><a href="#">Inicio</a></li>
+                <li><a href="../teste_git/index.php">Inicio</a></li>
                 <li><a href="inserir.php">Registrar</a></li>
             </ul>
         </nav>

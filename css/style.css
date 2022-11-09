@@ -47,14 +47,16 @@ a:hover{
     margin-top: 16px;
 
     display: flex;
+    flex-wrap: wrap;
+
 }
 
 .card{
-    width: 350px;
-    height: 350px;
+    width: 250px;
+    height: 450px;
     box-shadow: 1px 1px 8px #333;
     padding: 8px;
-    margin: 0 16px;
+    margin: 8px;
 }
 
 .card img {
